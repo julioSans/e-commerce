@@ -1,0 +1,70 @@
+@charset "UTF-8"; 
+/* minhas fonts do header */
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Roboto:wght@500&display=swap');
+
+
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing:border-box;
+
+}
+
+/* editing o header da pagina */
+header{
+  padding: 30px 0;
+ background-color: rgb(63, 26, 132);
+}
+
+header nav li {
+  display: inline;
+  position: relative;
+  
+}
+header h2 {
+  font-size: 25px;
+  font-family: 'Roboto', sans-serif;
+  color:azure;   
+}
+header p {
+  padding: 5px 15px;
+  font-size: 14px;
+  color:azure;
+  font-family: 'Croissant One', cursive;
+  position: absolute;
+  top: 20px;
+  left: 40px; 
+}
+
+.conteiner{
+  max-width: 1230px;
+  width: 100%px;
+  margin: 0 auto;
+}
+
+
+
+
+
+header .conteiner {
+  align-items: center;
+  display:flex; 
+  position: relative;
+  justify-content: space-between;
+  
+}
+
+/* editing os meus links */
+header nav a  {
+  text-decoration:none;
+  padding: 10px;
+  color: antiquewhite;
+  font-size: 17px;
+  font-weight: bolder;
+}
+
+header a:hover{
+  transition:0.5s;
+  color:#4d8e69 ;
+
+}
